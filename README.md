@@ -4,5 +4,22 @@ Rockbuster Stealth LLC is a movie rental company that used to have stores around
 Rockbuster's business intelligence team's goal is to assist in the launch for their new online service. To come up with strategies to compete with already popular streaming services by using current customers of Rockbuster.
 ##Data
 This data was provided by Rockbuster for this CareerFoundry Project Brief. The data set that was worked on contianed the following:
-## Fact Tables
-
+### Fact Tables
+- Payment
+- Rental
+### Dimension Tables
+- Actor
+- Address
+- Category
+- City
+- Country
+- Customer
+- Film
+- Film Actor
+- Film Category
+- Inventory
+- Lanaguage
+- Staff
+- Store
+## Visualizations
+All visualizations were created in Tableau. The link for them can be found here:
