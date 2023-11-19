@@ -23,3 +23,8 @@ This data was provided by Rockbuster for this CareerFoundry Project Brief. The d
 - Store
 ## Visualizations
 All visualizations were created in Tableau. The link for them can be found here:
+- [Top 10 Countries](https://public.tableau.com/shared/HZF75M2MT?:display_count=n&:origin=viz_share_link)
+- [Top 5 Paying Customers](https://public.tableau.com/views/Top5PayingCustomers/Top5PayingCustomers?:language=en-US&:display_count=n&:origin=viz_share_link)
+- [Top 10 Movies Revenue](https://public.tableau.com/views/Top10MoviesbyReveneue/Top10Movies?:language=en-US&:display_count=n&:origin=viz_share_link)
+- [Map of Customers Revenue](https://public.tableau.com/views/Top10CountriesbyRevenue_16992383596580/Top10Countries?:language=en-US&:display_count=n&:origin=viz_share_link)
+- [Map of Customers Payments](https://public.tableau.com/views/MapofCustomersandTheirTotalPayments/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link)
