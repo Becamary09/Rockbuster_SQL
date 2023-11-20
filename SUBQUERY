@@ -1,0 +1,20 @@
+# This is showcasing the average amount paid by the top 5 customers in Rockbuster using a SUBQUERY
+SELECT AVG(total_paid_amount)
+FROM
+(SELECT B.first_name,
+        B.last_name,
+        D.city,
+        B.customer_id,
+        E.country,
+        SUM(A.amount) AS total_paid_amount]
+FROM payment A
+INNER JOIN customer B ON A.customer_id = B.customer_id
+INNER JOIN address C ON B.address_id = C.address_id
+INNER JOIN city D ON C.city_id = D.city_id
+INNER JOIN country E ON D.country_id - E.country_id
+GROUP BY D. city, B.first_name, B.last_name, E.country, B.customer_id
+HAVING city IN ('Aurora','Acua','Citrus Heights',
+                'Iwaki','Ambattur','Shanwei',
+                'So Leopoldo','Hami','Tianjin','Cianjur')
+ORDER BY total_paid_amount DESC
+LIMIT 5) AS average
